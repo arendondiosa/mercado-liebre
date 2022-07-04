@@ -1,0 +1,87 @@
+.button-container {
+    text-align: center;
+}
+
+.burger-menu {
+    background-color: var(--color-celeste);
+    border: none;
+    border-radius: 10px;
+    color: var(--color-gris-claro);
+    font-size: 2em;
+    padding: 10px 15px;
+}
+
+header {
+    padding: 20px 0;
+}
+
+header .subtitle {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+nav ul li a {
+    color: var(--color-negro);
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+section.footer-item {
+    text-align: center;
+}
+
+section.footer-item i{
+    font-size: 2em;
+    color: var(--color-celeste);
+    margin-bottom: 10px;
+}
+
+main {
+    margin: 0 auto;
+    width: 90%;
+}
+
+main .producto-container {
+    background-color: var(--color-blanco);
+    margin: 10px 0;
+}
+
+main .producto-container .descripcion-container {
+    border-top: 1px solid var(--color-gris-claro);
+    padding: 15px;
+}
+
+main .producto-container .descripcion-container .reparto-icon {
+    border: 1px solid var(--color-verde);
+    border-radius: 50%;
+    color: var(--color-verde);
+    font-size: 16px;
+    padding: 10px 8px;
+}
+
+.title {
+    font-size: 24px;
+}
+
+main .producto-container .descripcion-container .price {
+    font-size: 18px;
+}
+
+main .producto-container .descripcion-container.discount {
+    color: var(--color-verde);
+    font-size: 16px;
+}
+
+main .producto-container .descripcion-container .description {
+    color: var(--color-gris-oscuro);
+    font-size: 16px;
+    font-weight: 500;
+}
+
